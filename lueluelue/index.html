@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <style type="text/css">
+        .main {
+            position: absolute;
+            width: 500px;
+            height: 500px;
+            background: #e8e8e8;
+        }
+
+        .one {
+            width: 100px;
+            height: 100px;
+            position: relative;
+            top: 0;
+            left: 0;
+            background: pink;
+
+            -webkit-animation: mymove 3s ease 1s infinite alternate Both;
+            -moz-animation: mymove 3s ease 1s infinite alternate Both;
+            -o-animation: mymove 3s ease 1s infinite alternate Both;
+            animation: mymove 3s ease 1s infinite alternate Both;
+        }
+
+        @-webkit-keyframes mymove {
+            0% {
+                transform: scale3d(1, 1, 1);
+                opacity: 1;
+                width: 100px;
+                height: 100px;
+                top: 0;
+                left: 0;
+                background: red;
+            }
+            25% {
+                transform: scale3d(1.5, 1.5, 1.5);
+                opacity: 0.5;
+                width: 150px;
+                height: 150px;
+                top: 0;
+                left: 300px;
+                background: yellow;
+            }
+            50% {
+                transform: scale3d(2, 2, 2);
+                opacity: 0;
+                width: 200px;
+                height: 200px;
+                top: 300px;
+                left: 300px;
+                background: pink;
+            }
+            75% {
+                transform: scale3d(1.5, 1.5, 1.5);
+                opacity: 0.5;
+                width: 150px;
+                height: 150px;
+                top: 300px;
+                left: 0px;
+                background: deepskyblue;
+            }
+            100% {
+                transform: scale3d(1, 1, 1);
+                opacity: 1;
+                width: 100px;
+                height: 100px;
+                top: 0;
+                background: red;
+            }
+        }
+
+        @-moz-keyframes mymove {
+            0% {
+                transform: scale3d(1, 1, 1);
+                opacity: 1;
+                width: 100px;
+                height: 100px;
+                top: 0;
+                left: 0;
+                background: red;
+            }
+            25% {
+                transform: scale3d(1.5, 1.5, 1.5);
+                opacity: 0.5;
+                width: 150px;
+                height: 150px;
+                top: 0;
+                left: 300px;
+                background: yellow;
+            }
+            50% {
+                transform: scale3d(2, 2, 2);
+                opacity: 0;
+                width: 200px;
+                height: 200px;
+                top: 300px;
+                left: 300px;
+                background: pink;
+            }
+            75% {
+                transform: scale3d(1.5, 1.5, 1.5);
+                opacity: 0.5;
+                width: 150px;
+                height: 150px;
+                top: 300px;
+                left: 0px;
+                background: deepskyblue;
+            }
+            100% {
+                transform: scale3d(1, 1, 1);
+                opacity: 1;
+                width: 100px;
+                height: 100px;
+                top: 0;
+                background: red;
+            }
+        }
+
+        @-o-keyframes mymove {
+            0% {
+                transform: scale3d(1, 1, 1);
+                opacity: 1;
+                width: 100px;
+                height: 100px;
+                top: 0;
+                left: 0;
+                background: red;
+            }
+            25% {
+                transform: scale3d(1.5, 1.5, 1.5);
+                opacity: 0.5;
+                width: 150px;
+                height: 150px;
+                top: 0;
+                left: 300px;
+                background: yellow;
+            }
+            50% {
+                transform: scale3d(2, 2, 2);
+                opacity: 0;
+                width: 200px;
+                height: 200px;
+                top: 300px;
+                left: 300px;
+                background: pink;
+            }
+            75% {
+                transform: scale3d(1.5, 1.5, 1.5);
+                opacity: 0.5;
+                width: 150px;
+                height: 150px;
+                top: 300px;
+                left: 0px;
+                background: deepskyblue;
+            }
+            100% {
+                transform: scale3d(1, 1, 1);
+                opacity: 1;
+                width: 100px;
+                height: 100px;
+                top: 0;
+                background: red;
+            }
+        }
+
+        @keyframes mymove {
+            0% {
+                transform: scale3d(1, 1, 1);
+                opacity: 1;
+                width: 100px;
+                height: 100px;
+                top: 0;
+                left: 0;
+                background: red;
+            }
+            25% {
+                transform: scale3d(1.5, 1.5, 1.5);
+                opacity: 0.5;
+                width: 150px;
+                height: 150px;
+                top: 0;
+                left: 300px;
+                background: yellow;
+            }
+            50% {
+                transform: scale3d(2, 2, 2);
+                opacity: 0;
+                width: 200px;
+                height: 200px;
+                top: 300px;
+                left: 300px;
+                background: pink;
+            }
+            75% {
+                transform: scale3d(1.5, 1.5, 1.5);
+                opacity: 0.5;
+                width: 150px;
+                height: 150px;
+                top: 300px;
+                left: 0px;
+                background: deepskyblue;
+            }
+            100% {
+                transform: scale3d(1, 1, 1);
+                opacity: 1;
+                width: 100px;
+                height: 100px;
+                top: 0;
+                background: red;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="one"></div>
+    </div>
+
+</body>
